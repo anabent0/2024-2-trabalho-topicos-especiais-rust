@@ -5,7 +5,6 @@ mod usuario;
 
 use db::init_db;
 use livro::{listar_livros, Livro};
-use usuario::{listar_pessoas, Pessoa};
 use status::Status;
 use chrono::NaiveDate;
 
